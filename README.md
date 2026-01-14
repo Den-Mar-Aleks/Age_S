@@ -1,3 +1,14 @@
+---
+license: other
+tags:
+  - lora
+  - age-progression
+  - age-slider
+  - face-editing
+  - stylized
+pipeline_tag: text-to-image
+---
+
 # 🔵 Simple_Age-S — Artistic Age Progression Slider LoRA
 **ZIT compatible · Safe · Stylized age-morphing**
 
