@@ -14,6 +14,14 @@ pipeline_tag: text-to-image
 
 ---
 
+## ⚡ Quick Links
+
+| Version | Weights | Preview |
+|--------|---------|---------|
+| **Main** | [/model/Age_S.safetensors](https://huggingface.co/dmsnoa/Age_S/resolve/main/model/Age_S.safetensors) | <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/model/2026-01-06-12.png" width="120"> <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/model/2026-01-12-13.png" width="120"> |
+
+---
+
 ## 🔍 Overview
 **Simple_Age-S** is an artistic age-progression LoRA that adjusts the **stylized perceived age** of a face without altering:
 
@@ -70,13 +78,6 @@ realistic skin texture, photorealistic
 
 ---
 
-## ⚡ Quick Links
-
-| Version | Weights | Preview |
-|--------|---------|---------|
-| **Main** | [/model/Age_S.safetensors](https://huggingface.co/dmsnoa/Age_S/resolve/main/model/Age_S.safetensors) | <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/model/2026-01-06-12.png" width="120"> <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/model/2026-01-12-13.png" width="120"> |
-
----
 
 ## 🧾 License
 **CreativeML OpenRAIL-M**
