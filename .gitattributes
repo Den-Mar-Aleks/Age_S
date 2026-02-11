@@ -41,3 +41,11 @@ ZiT/MiD/2026-01-06-12.png filter=lfs diff=lfs merge=lfs -text
 ZiT/MiD/2026-01-12-13.png filter=lfs diff=lfs merge=lfs -text
 ZiT/MiD/video-3d27db60.mp4 filter=lfs diff=lfs merge=lfs -text
 ZiT/MiD/video-d852fad5-33c9.mp4 filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/026-02-09-10-28-10-g.png filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/09-15-.png filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/1471af5-6819-4.mp4 filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/2655053384-2.png filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/5-51-.png filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/9-10-29-1.png filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/9-10-29-24-.png filter=lfs diff=lfs merge=lfs -text
+ZiT/Soft/a67a-fa85-4e1a-ad41-b9b334a3858e.mp4 filter=lfs diff=lfs merge=lfs -text
