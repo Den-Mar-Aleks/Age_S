@@ -18,6 +18,7 @@ pipeline_tag: text-to-image
 
 | Version | Weights | Preview |
 |--------|---------|---------|
+| **Soft** | [/ZiT/Soft/Age_S.safetensors](https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/Soft/Age_S.safetensors) | <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/Soft/026-02-09-10-28-10-g.png" width="120"> <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/Soft/09-15-.png" width="120"> |
 | **MiD** | [/ZiT/MiD/Age_S.safetensors](https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/MiD/Age_S.safetensors) | <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/MiD/2026-01-06-12.png" width="120"> <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/MiD/2026-01-12-13.png" width="120"> |
 
 ---
