@@ -18,8 +18,6 @@ pipeline_tag: text-to-image
 
 | Version | Weights | Preview |
 |--------|---------|---------|
-| Version | Weights | Preview |
-|--------|---------|---------|
 | **Soft** | [/ZiT/Soft/Age_S.safetensors](https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/Soft/Age_S.safetensors) | 
 <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/Soft/09-15-.png" width="120"> 
 <img src="https://huggingface.co/dmsnoa/Age_S/resolve/main/ZiT/Soft/5-51-.png" width="120"> 
