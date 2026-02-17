@@ -3,25 +3,28 @@ name: Sync from Hugging Face
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 */6 * * *"  # every 6 hours
+    - cron: "0 */6 * * *"
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    env:
-      GIT_LFS_SKIP_SMUDGE: 1
     steps:
       - name: Checkout GitHub repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          lfs: false
-
+          lfs: true
 
       - name: Add Hugging Face remote and fetch
         run: |
           git remote add hf https://huggingface.co/dmsnoa/Age_S.git || true
           git fetch hf --prune
+
+      - name: Pull LFS objects from Hugging Face
+        run: |
+          git lfs install
+          git lfs fetch hf --all
+          git lfs checkout
 
       - name: Merge HF main into GitHub main
         run: |
