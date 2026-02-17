@@ -3,7 +3,7 @@ name: Sync from Hugging Face
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 */6 * * *"  # каждые 6 часов
+    - cron: "0 */6 * * *"  # every 6 hours
 
 jobs:
   sync:
@@ -14,9 +14,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup Git LFS
+        run: |
+          git lfs install
+
       - name: Add Hugging Face remote and fetch
         run: |
-          git remote add hf https://huggingface.co/dmsnoa/Age_S true
+          git remote add hf https://huggingface.co/dmsnoa/Age_S.git || true
           git fetch hf --prune
 
       - name: Merge HF main into GitHub main
