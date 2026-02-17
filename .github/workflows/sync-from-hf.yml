@@ -1,4 +1,4 @@
-name: Sync from Hugging Face
+name: "[AUTO] Sync HF to GH (Age_S)"
 
 on:
   workflow_dispatch: {}
