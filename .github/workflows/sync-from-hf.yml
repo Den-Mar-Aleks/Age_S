@@ -8,15 +8,15 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      GIT_LFS_SKIP_SMUDGE: 1
     steps:
       - name: Checkout GitHub repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          lfs: false
 
-      - name: Setup Git LFS
-        run: |
-          git lfs install
 
       - name: Add Hugging Face remote and fetch
         run: |
