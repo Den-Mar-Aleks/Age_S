@@ -9,11 +9,15 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout GitHub repo
+      - name: Checkout GitHub repo (no LFS)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          lfs: true
+          lfs: false
+
+      - name: Setup Git LFS
+        run: |
+          git lfs install
 
       - name: Add Hugging Face remote and fetch
         run: |
@@ -22,7 +26,6 @@ jobs:
 
       - name: Pull LFS objects from Hugging Face
         run: |
-          git lfs install
           git lfs fetch hf --all
           git lfs checkout
 
@@ -34,4 +37,5 @@ jobs:
           git merge --no-edit hf/main
 
       - name: Push to GitHub
-        run: git push origin main
+        run: |
+          git push origin main
